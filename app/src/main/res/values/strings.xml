@@ -12,4 +12,8 @@
     <string name="address">21-42-34, Banjara Hills, Hyderabad, 500072</string>
     <string name="time">30 mins</string>
     <string name="food">Food</string>
+    <string name="user1"><u>User 1</u></string>
+    <string name="user2"><u>User 2</u></string>
+    <string name="user3"><u>User 3</u></string>
+    <string name="user4"><u>User 4</u></string>
 </resources>

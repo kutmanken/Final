@@ -3,11 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Apps/Final/app/src/main/res/drawable/apply.xml" value="0.28055555555555556" />
         <entry key="..\:/Apps/Final/app/src/main/res/drawable/cart.xml" value="0.31296296296296294" />
+        <entry key="..\:/Apps/Final/app/src/main/res/drawable/promo_code.xml" value="0.28055555555555556" />
         <entry key="..\:/Apps/Final/app/src/main/res/drawable/shape_address_time.xml" value="0.2824074074074074" />
         <entry key="..\:/Apps/Final/app/src/main/res/drawable/shape_back.xml" value="0.2824074074074074" />
         <entry key="..\:/Apps/Final/app/src/main/res/drawable/star.xml" value="0.31296296296296294" />
-        <entry key="..\:/Apps/Final/app/src/main/res/layout/activity_main.xml" value="0.2907608695652174" />
+        <entry key="..\:/Apps/Final/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Apps/Final/app/src/main/res/menu/bottom_nav_menu.xml" value="0.35185185185185186" />
       </map>
     </option>
