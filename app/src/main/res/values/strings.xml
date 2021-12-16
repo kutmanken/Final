@@ -16,4 +16,18 @@
     <string name="user2"><u>User 2</u></string>
     <string name="user3"><u>User 3</u></string>
     <string name="user4"><u>User 4</u></string>
+    <string name="pista_house">Pista House</string>
+    <string name="fried_rice">Fried Rice</string>
+    <string name="jollof_rice">Jollof Rice</string>
+    <string name="stop">Suhani\'s Stop</string>
+    <string name="biryani">Biryani</string>
+    <string name="veg_pulao">Veg Pulao</string>
+    <string name="select_user">Select User</string>
+    <string name="total">Total</string>
+    <string name="payment">Payment</string>
+    <string name="delivery">Delivery</string>
+    <string name="subtotal">Subtotal</string>
+    <string name="apply">Apply</string>
+    <string name="enter_promo_code">Enter Promo Code</string>
+    <string name="arrow">Arrow</string>
 </resources>

@@ -179,7 +179,8 @@
                         android:orientation="horizontal"
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
-                        app:layout_constraintTop_toBottomOf="@id/address_time">
+                        app:layout_constraintTop_toBottomOf="@id/address_time"
+                        tools:ignore="ExtraText">
 
                         <ImageView
                             android:layout_width="88dp"
@@ -198,7 +199,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Fried Rice"
+                                android:text="@string/fried_rice"
                                 android:textColor="@color/black"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -207,7 +208,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Pista House"
+                                android:text="@string/pista_house"
                                 android:textColor="@color/black"
                                 android:textSize="12sp" />
 
@@ -251,7 +252,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Jollof Rice"
+                                android:text="@string/jollof_rice"
                                 android:textColor="@color/black"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -260,7 +261,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Suhani's Stop"
+                                android:text="@string/stop"
                                 android:textColor="@color/black"
                                 android:textSize="12sp" />
 
@@ -303,7 +304,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Biryani"
+                                android:text="@string/biryani"
                                 android:textColor="@color/black"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -312,7 +313,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Pista House"
+                                android:text="@string/pista_house"
                                 android:textColor="@color/black"
                                 android:textSize="12sp" />
 
@@ -355,7 +356,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Veg Pulao"
+                                android:text="@string/veg_pulao"
                                 android:textColor="@color/black"
                                 android:textSize="14sp"
                                 android:textStyle="bold" />
@@ -364,7 +365,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="10dp"
-                                android:text="Suhani's Stop"
+                                android:text="@string/stop"
                                 android:textColor="@color/black"
                                 android:textSize="12sp" />
 
@@ -393,17 +394,20 @@
                             android:layout_width="250dp"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="20dp"
-                            android:text="Enter Promo Code"
+                            android:text="@string/enter_promo_code"
                             android:textColor="@color/grey"
                             android:textSize="14sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:autofillHints=""
+                            tools:ignore="LabelFor"
+                            android:inputType="text" />
 
                         <TextView
                             android:layout_width="105dp"
                             android:layout_height="40dp"
                             android:background="@drawable/apply"
                             android:gravity="center"
-                            android:text="Apply"
+                            android:text="@string/apply"
                             android:textColor="@color/white"
                             android:textSize="14sp" />
                     </LinearLayout>
@@ -425,7 +429,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="9dp"
-                            android:text="Subtotal"
+                            android:text="@string/subtotal"
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -434,7 +438,7 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
-                            android:text="Delivery"
+                            android:text="@string/delivery"
                             android:textColor="@color/black"
                             android:textSize="14sp"
                             android:textStyle="bold" />
@@ -444,7 +448,7 @@
                             android:layout_height="wrap_content"
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="1dp"
-                            android:text="Total"
+                            android:text="@string/total"
                             android:textColor="@color/black"
                             android:textSize="16sp"
                             android:textStyle="bold" />
@@ -467,11 +471,12 @@
                             android:layout_marginStart="40dp"
                             android:layout_marginTop="13dp"
                             android:gravity="center"
-                            android:text="Payment"
+                            android:text="@string/payment"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
                         <ImageView
+                            android:contentDescription="@string/arrow"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_gravity="center"
@@ -495,11 +500,12 @@
                             android:layout_marginStart="15dp"
                             android:layout_marginTop="13dp"
                             android:gravity="center"
-                            android:text="Select User"
+                            android:text="@string/select_user"
                             android:textColor="@color/white"
                             android:textSize="16sp" />
 
                         <ImageView
+                            android:contentDescription="@string/arrow"
                             android:layout_width="30dp"
                             android:layout_height="30dp"
                             android:layout_gravity="center"
