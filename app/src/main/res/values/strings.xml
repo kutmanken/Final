@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Final</string>
+    <string name="discovery">Discovery</string>
+    <string name="star">Star</string>
+    <string name="cart">Cart</string>
+    <string name="profile">Profile</string>
+    <string name="order">Your Order</string>
+    <string name="two">2</string>
+    <string name="x">X</string>
+    <string name="home">Home</string>
+    <string name="name">Satya Nilayam</string>
+    <string name="address">21-42-34, Banjara Hills, Hyderabad, 500072</string>
+    <string name="time">30 mins</string>
+    <string name="food">Food</string>
+</resources>
